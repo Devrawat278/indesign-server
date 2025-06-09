@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello, this is your InDesign server!"
+    return "Hello,!"
 
 # Example API: Export PDF
 @app.route('/export_pdf', methods=['POST'])
